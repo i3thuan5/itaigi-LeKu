@@ -1,0 +1,7 @@
+Django==1.10.5
+django-cors-headers==2.0.2
+gunicorn==19.6.0
+htsengine==0.2.4
+pypi-bleualign==0.1.1.1
+pypi-kenlm==0.1.20160618
+tai5-uan5-gian5-gi2-kang1-ku7==0.6.16
