@@ -8,5 +8,3 @@ class 袂使台(admin.ModelAdmin):
 
     def has_delete_permission(self, request, obj=None):
         return False
-
-

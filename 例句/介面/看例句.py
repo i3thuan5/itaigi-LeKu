@@ -12,7 +12,7 @@ def 看(request):
     try:
         漢字 = request.GET['漢字']
         臺羅 = request.GET['臺羅']
-    except:
+    except Exception:
         return JsonResponse({'例句': []})
     結果 = []
     try:
@@ -24,7 +24,7 @@ def 看(request):
         for 例句 in 例句表.objects.filter(分詞__contains=句物件.看分詞()).values():
             例句['綜合標音'] = 拆文分析器.分詞句物件(例句['分詞']).綜合標音(閩南語綜合標音)
             結果.append(例句)
-    except:
+    except Exception:
         for 例句 in 例句表.objects.filter(漢字__contains=漢字).values():
             例句['綜合標音'] = 拆文分析器.分詞句物件(例句['分詞']).綜合標音(閩南語綜合標音)
             結果.append(例句)
