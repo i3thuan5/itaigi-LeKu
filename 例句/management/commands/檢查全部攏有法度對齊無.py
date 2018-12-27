@@ -1,5 +1,4 @@
 import http
-import io
 import json
 from urllib.parse import quote
 

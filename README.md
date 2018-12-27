@@ -1,5 +1,6 @@
-# itaigi-le7ku3
-itaigi例句
+# itaigi例句
+[![Build Status](https://travis-ci.org/sih4sing5hong5/itaigi-le7ku3.svg?branch=master)](https://travis-ci.org/sih4sing5hong5/itaigi-le7ku3)
+
 ```
 git clone https://github.com/sih4sing5hong5/itaigi-le7ku3.git
 cd itaigi-le7ku3/
